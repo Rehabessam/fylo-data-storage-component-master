@@ -26,7 +26,7 @@ body{
     align-items: center;
     justify-content: center; */
     position: relative;
-    background: url(/assets/images/bg-mobile.png) no-repeat;
+    background: url('../images/bg-mobile.png') no-repeat;
     background-size:cover;
     background-color: var(--Very_Dark_Blue);
     padding: 1rem 2.5rem;
@@ -156,9 +156,9 @@ footer{
     }
 
     body{
-        background: url(/assets/images/bg-desktop.png) no-repeat;
+        background: url('../images/bg-desktop.png') no-repeat;
         background-position: right bottom;
-        background-size:cover;
+        background-size:contain;
         background-color: var(--Very_Dark_Blue);
     }
 
@@ -193,7 +193,7 @@ footer{
         padding: 0 9.2rem;
         background: url(/assets/images/bg-desktop.png) no-repeat;
         background-position: right bottom;
-        background-size: cover;
+        background-size: contain;
         background-color: var(--Very_Dark_Blue);
     }
    
