@@ -102,7 +102,7 @@ h1, strong, footer{
 
 .floating-card{
     /* display: none; */
-    background-color: var(--Pale_Blue);
+    background-color: #fffffd;
     width: 12rem;
     padding: 1.2rem 1.5rem;
     position: absolute;
@@ -124,7 +124,7 @@ h1, strong, footer{
 .edge-bottom{
     display: none;
     position: absolute;
-    background-color: var(--Pale_Blue);
+    background-color: #fffffd;
     clip-path: polygon(4% 21%, 55% 21%, 54% 96%);
     height: 3rem;
     width: 4rem;
